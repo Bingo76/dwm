@@ -16,12 +16,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 
 static const char *fonts[]          = { "Lato - Bold:size=12" };
 static const char dmenufont[]       = "Lato Bold:size=12";
-static const char col_gray1[]       = "#000000";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#ffffff";
-static const char col_cyan[]        = "#171717";
-static const char col_selborder[]   = "#26f7fd";
+static const char col_gray1[]       = "#252423";
+static const char col_gray2[]       = "#3c3836";
+static const char col_gray3[]       = "#e78a4e";
+static const char col_gray4[]       = "#7daea3";
+static const char col_cyan[]        = "#252423";
+static const char col_selborder[]   = "#e78a4e";
 static const char *colors[][3]      = {
 
 	/*               fg         bg         border   */
