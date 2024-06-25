@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 #include <X11/XF86keysym.h>
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappih    = 20;       /* horiz inner gap between windows */
 static const unsigned int gappiv    = 15;       /* vert inner gap between windows */
@@ -14,14 +14,14 @@ static int smartgaps         	    = 0;        /* 1 means no outer gap when there
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 
-static const char *fonts[]          = { "Lato - Bold:size=12" };
-static const char dmenufont[]       = "Lato Bold:size=12";
-static const char col_gray1[]       = "#252423";
-static const char col_gray2[]       = "#3c3836";
-static const char col_gray3[]       = "#e78a4e";
-static const char col_gray4[]       = "#7daea3";
-static const char col_cyan[]        = "#252423";
-static const char col_selborder[]   = "#e78a4e";
+static const char *fonts[]          = { "Lato - Bold:size=12", "fontawesome:size=12" };
+static const char dmenufont[]       = "Lato - Bold:size=12";
+static const char col_gray1[]       = "#242424";
+static const char col_gray2[]       = "#242424";
+static const char col_gray3[]       = "#E7D7AD";
+static const char col_gray4[]       = "#7fa2ac";
+static const char col_cyan[]        = "#242424";
+static const char col_selborder[]   = "#7fa2ac";
 static const char *colors[][3]      = {
 
 	/*               fg         bg         border   */
